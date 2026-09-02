@@ -1,0 +1,60 @@
+about:
+  description: Spec-driven development (SDD) for AI coding assistants.
+  license: MIT
+  homepage: https://openspec.dev/
+  head: d0071d7
+  archived: false
+  latestVersion: v1.11.0
+  collectedAt: 2026-09-02T04:59:15Z
+timeline:
+  created: 2025-08-05
+  lastCommit: 2026-09-01
+  lastRelease: 2026-08-26
+popularity:
+  star: 66965
+  watcher: 279
+  fork: 4617
+  release: 46
+  contributor: 107
+  pullRequest: 327
+  issue: 617
+language:
+  TypeScript: 4067944
+  JavaScript: 41287
+  Shell: 4828
+  Nix: 2992
+  CSS: 255
+totalLine: 4117306
+recent:
+  last30d:
+    since: 2026-08-03
+    release: 4
+    mergedPR: 63
+    openPR: 35
+    closedIssue: 30
+    openIssue: 32
+    commit: 57
+  last90d:
+    since: 2026-06-04
+    release: 8
+    mergedPR: 195
+    openPR: 57
+    closedIssue: 114
+    openIssue: 47
+    commit: 207
+  last180d:
+    since: 2026-03-06
+    release: 12
+    mergedPR: 269
+    openPR: 94
+    closedIssue: 245
+    openIssue: 72
+    commit: 269
+  last360d:
+    since: 2025-09-07
+    release: 45
+    mergedPR: 545
+    openPR: 105
+    closedIssue: 509
+    openIssue: 108
+    commit: 567
