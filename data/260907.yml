@@ -5,19 +5,19 @@ about:
   head: e062b95
   archived: false
   latestVersion: "v1.12.0"
-  collectedAt: 2026-09-07T04:34:17Z
+  collectedAt: 2026-09-07T19:56:56Z
 timeline:
   created: 2025-08-05
   lastCommit: 2026-09-03
   lastRelease: 2026-09-03
 popularity:
-  star: 67475
-  watcher: 282
-  fork: 4641
+  star: 67547
+  watcher: 281
+  fork: 4646
   release: 47
   contributor: 113
-  pullRequest: 956
-  issue: 631
+  pullRequest: 961
+  issue: 632
 language:
   TypeScript: 4165625
   JavaScript: 41329
@@ -30,60 +30,60 @@ recent:
     since: 2026-08-08
     release: 4
     mergedPR: 53
-    openPR: 56
+    openPR: 55
     closedIssue: 23
-    openIssue: 40
+    openIssue: 41
     commit: 51
   last60d:
     since: 2026-07-09
     release: 7
     mergedPR: 168
-    openPR: 66
+    openPR: 65
     closedIssue: 62
-    openIssue: 51
+    openIssue: 52
     commit: 199
   last90d:
     since: 2026-06-09
     release: 9
     mergedPR: 207
-    openPR: 78
+    openPR: 77
     closedIssue: 110
-    openIssue: 59
+    openIssue: 60
     commit: 226
   last180d:
     since: 2026-03-11
     release: 13
     mergedPR: 285
-    openPR: 112
+    openPR: 111
     closedIssue: 235
-    openIssue: 80
+    openIssue: 81
     commit: 288
   last360d:
     since: 2025-09-12
     release: 46
     mergedPR: 559
-    openPR: 121
+    openPR: 120
     closedIssue: 514
-    openIssue: 117
+    openIssue: 118
     commit: 549
   last720d:
     since: 2024-09-17
     release: 47
     mergedPR: 611
-    openPR: 121
+    openPR: 120
     closedIssue: 514
-    openIssue: 117
+    openIssue: 118
     commit: 828
 total:
   release: 47
   mergedPR: 611
-  openPR: 121
+  openPR: 120
   closedIssue: 514
-  openIssue: 117
+  openIssue: 118
   commit: 828
 ---
 path: /home/runner/.x-repo/github.com/Fission-AI/OpenSpec
-collectedAt: 2026-09-07T04:34:18Z
+collectedAt: 2026-09-07T19:56:58Z
 loc:
   TypeScript:
     code: 88047
@@ -144,7 +144,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T04:34:19+00:00
+  collectedAt: 2026-09-07T19:56:59+00:00
   platform:
     darwin/arm64:
       name:  null
