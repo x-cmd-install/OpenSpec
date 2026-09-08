@@ -5,13 +5,13 @@ about:
   head: e062b95
   archived: false
   latestVersion: "v1.12.0"
-  collectedAt: 2026-09-08T01:48:09Z
+  collectedAt: 2026-09-08T04:46:09Z
 timeline:
   created: 2025-08-05
   lastCommit: 2026-09-03
   lastRelease: 2026-09-03
 popularity:
-  star: 67569
+  star: 67592
   watcher: 281
   fork: 4646
   release: 47
@@ -83,7 +83,7 @@ total:
   commit: 828
 ---
 path: /home/runner/.x-repo/github.com/Fission-AI/OpenSpec
-collectedAt: 2026-09-08T01:48:13Z
+collectedAt: 2026-09-08T04:46:11Z
 loc:
   TypeScript:
     code: 88047
