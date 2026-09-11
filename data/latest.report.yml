@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.13.0"
   latestRelease: "v1.13.0"
   latestPrerelease: "v1.6.0-beta.1"
-  collectedAt: 2026-09-11T00:23:12Z
+  collectedAt: 2026-09-11T04:45:46Z
 timeline:
   created: 2025-08-05
   lastCommit: 2026-09-09
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-09-09
   lastPrerelease: 2026-07-08
 popularity:
-  star: 67904
+  star: 67915
   watcher: 281
-  fork: 4667
+  fork: 4669
   release: 48
   contributor: 114
-  pullRequest: 974
+  pullRequest: 976
   issue: 641
 language:
   TypeScript: 4305188
@@ -34,7 +34,7 @@ recent:
     since: 2026-08-12
     release: 5
     mergedPR: 56
-    openPR: 50
+    openPR: 51
     closedIssue: 24
     openIssue: 43
     commit: 66
@@ -42,7 +42,7 @@ recent:
     since: 2026-07-13
     release: 7
     mergedPR: 177
-    openPR: 61
+    openPR: 62
     closedIssue: 65
     openIssue: 54
     commit: 214
@@ -50,7 +50,7 @@ recent:
     since: 2026-06-13
     release: 10
     mergedPR: 218
-    openPR: 74
+    openPR: 75
     closedIssue: 112
     openIssue: 62
     commit: 241
@@ -58,7 +58,7 @@ recent:
     since: 2026-03-15
     release: 14
     mergedPR: 300
-    openPR: 106
+    openPR: 107
     closedIssue: 240
     openIssue: 80
     commit: 303
@@ -66,7 +66,7 @@ recent:
     since: 2025-09-16
     release: 47
     mergedPR: 567
-    openPR: 118
+    openPR: 119
     closedIssue: 521
     openIssue: 120
     commit: 564
@@ -74,20 +74,20 @@ recent:
     since: 2024-09-21
     release: 48
     mergedPR: 626
-    openPR: 118
+    openPR: 119
     closedIssue: 521
     openIssue: 120
     commit: 843
 total:
   release: 48
   mergedPR: 626
-  openPR: 118
+  openPR: 119
   closedIssue: 521
   openIssue: 120
   commit: 843
 ---
 path: /home/runner/.x-repo/github.com/Fission-AI/OpenSpec
-collectedAt: 2026-09-11T00:23:13Z
+collectedAt: 2026-09-11T04:45:49Z
 loc:
   TypeScript:
     code: 90593
