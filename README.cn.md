@@ -4,7 +4,7 @@
 
 Spec-driven development (SDD) for AI coding assistants.
 
-![OpenSpec](https://repo.x-cmd.io/OpenSpec.svg?lang=zh)
+[![x-cmd/install — OpenSpec Code Quality Monitoring Repo Card](https://repo.x-cmd.io/OpenSpec.svg?lang=zh)](https://x-cmd.com/install/OpenSpec)
 
 ## 安装
 
@@ -37,22 +37,22 @@ x install OpenSpec
 
 ## 流行度
 
-- **Star**: 68,969 · **Fork**: 4,730 · **开放 issue**: 674 · **贡献者**: 115
+- **Star**: 69,592 · **Fork**: 4,765 · **开放 issue**: 680 · **贡献者**: 115
 
 ## 累计统计
 
-- **发布数**: 49 · **已合并 PR**: 665 · **开放 PR**: 109 · **已关闭 issue**: 555 · **开放 issue**: 119 · **提交数**: 882
+- **发布数**: 49 · **已合并 PR**: 665 · **开放 PR**: 114 · **已关闭 issue**: 556 · **开放 issue**: 124 · **提交数**: 882
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 5 | 72 | 36 | 36 | 38 | 87 |
-| last60d | 2026-07-20 | 8 | 192 | 48 | 77 | 60 | 217 |
-| 90d | 2026-06-20 | 11 | 255 | 62 | 128 | 66 | 280 |
-| last180d | 2026-03-22 | 15 | 337 | 94 | 259 | 81 | 342 |
-| 360d | 2025-09-23 | 46 | 602 | 109 | 555 | 119 | 600 |
-| last720d | 2024-09-28 | 49 | 665 | 109 | 555 | 119 | 882 |
+| 30d | 2026-08-21 | 4 | 71 | 41 | 36 | 42 | 87 |
+| last60d | 2026-07-22 | 8 | 175 | 53 | 75 | 65 | 217 |
+| 90d | 2026-06-22 | 11 | 253 | 65 | 128 | 71 | 280 |
+| last180d | 2026-03-24 | 15 | 337 | 99 | 258 | 85 | 342 |
+| 360d | 2025-09-25 | 46 | 597 | 114 | 550 | 124 | 600 |
+| last720d | 2024-09-30 | 49 | 665 | 114 | 556 | 124 | 882 |
 
 ## 改进这些数据
 
@@ -63,4 +63,4 @@ OpenSpec 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T04:43:11Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T04:57:14Z._
