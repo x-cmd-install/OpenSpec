@@ -18,7 +18,7 @@ Total: **111,531** lines of code across **459** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 103,292 | 12,724 | 14,868 | 425 |
+| TypeScript | 103,292 | 12,726 | 14,868 | 425 |
 | Yaml | 6,387 | 26 | 1,545 | 6 |
 | JavaScript | 721 | 309 | 86 | 13 |
 | Tsx | 461 | 27 | 39 | 11 |
@@ -33,26 +33,26 @@ Total: **111,531** lines of code across **459** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.13.2` (2026-09-23)
-- **Last commit**: 2026-09-23
+- **Last commit**: 2026-09-25
 
 ## Popularity
 
-- **Stars**: 70,254 · **Forks**: 4,804 · **Open issues**: 696 · **Contributors**: 124
+- **Stars**: 70,384 · **Forks**: 4,821 · **Open issues**: 702 · **Contributors**: 124
 
 ## Totals (cumulative)
 
-- **Releases**: 50 · **Merged PRs**: 696 · **Open PRs**: 101 · **Closed issues**: 573 · **Open issues**: 123 · **Commits**: 913
+- **Releases**: 50 · **Merged PRs**: 697 · **Open PRs**: 102 · **Closed issues**: 582 · **Open issues**: 120 · **Commits**: 914
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 5 | 92 | 33 | 49 | 39 | 105 |
-| last60d | 2026-07-27 | 9 | 185 | 43 | 86 | 63 | 195 |
-| 90d | 2026-06-27 | 12 | 274 | 54 | 131 | 72 | 303 |
-| last180d | 2026-03-29 | 16 | 366 | 84 | 266 | 84 | 373 |
-| 360d | 2025-09-30 | 45 | 619 | 101 | 563 | 123 | 613 |
-| last720d | 2024-10-05 | 50 | 696 | 101 | 573 | 123 | 913 |
+| 30d | 2026-08-27 | 4 | 93 | 37 | 53 | 39 | 106 |
+| last60d | 2026-07-28 | 9 | 180 | 45 | 95 | 59 | 196 |
+| 90d | 2026-06-28 | 12 | 275 | 56 | 139 | 68 | 304 |
+| last180d | 2026-03-30 | 16 | 366 | 84 | 274 | 80 | 374 |
+| 360d | 2025-10-01 | 44 | 615 | 102 | 571 | 120 | 614 |
+| last720d | 2024-10-06 | 50 | 697 | 102 | 582 | 120 | 914 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for OpenSpec lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T04:57:50Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T04:57:34Z._
