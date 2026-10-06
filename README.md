@@ -14,12 +14,12 @@ x install OpenSpec
 
 ## Code insight
 
-Total: **115,371** lines of code across **483** files in the top 5 languages.
+Total: **115,444** lines of code across **483** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 107,103 | 12,971 | 15,405 | 448 |
-| Yaml | 6,382 | 34 | 1,560 | 6 |
+| TypeScript | 107,135 | 12,982 | 15,407 | 448 |
+| Yaml | 6,423 | 42 | 1,563 | 6 |
 | JavaScript | 746 | 317 | 88 | 14 |
 | Tsx | 461 | 27 | 39 | 11 |
 | Svg | 272 | 0 | 0 | 4 |
@@ -32,27 +32,27 @@ Total: **115,371** lines of code across **483** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v1.14.0` (2026-09-30)
-- **Last commit**: 2026-10-02
+- **Latest**: `v1.14.1` (2026-10-06)
+- **Last commit**: 2026-10-06
 
 ## Popularity
 
-- **Stars**: 71,056 · **Forks**: 4,871 · **Open issues**: 725 · **Contributors**: 132
+- **Stars**: 71,111 · **Forks**: 4,873 · **Open issues**: 726 · **Contributors**: 134
 
 ## Totals (cumulative)
 
-- **Releases**: 51 · **Merged PRs**: 743 · **Open PRs**: 70 · **Closed issues**: 606 · **Open issues**: 119 · **Commits**: 961
+- **Releases**: 52 · **Merged PRs**: 751 · **Open PRs**: 54 · **Closed issues**: 609 · **Open issues**: 117 · **Commits**: 969
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 4 | 92 | 26 | 63 | 37 | 118 |
-| last60d | 2026-08-06 | 8 | 181 | 38 | 103 | 57 | 188 |
-| 90d | 2026-07-07 | 12 | 297 | 43 | 143 | 70 | 332 |
-| last180d | 2026-04-08 | 17 | 405 | 61 | 278 | 78 | 402 |
-| 360d | 2025-10-10 | 40 | 638 | 70 | 584 | 119 | 623 |
-| last720d | 2024-10-15 | 51 | 743 | 70 | 606 | 119 | 961 |
+| 30d | 2026-09-06 | 5 | 94 | 20 | 60 | 35 | 126 |
+| last60d | 2026-08-07 | 9 | 183 | 31 | 104 | 55 | 196 |
+| 90d | 2026-07-08 | 13 | 300 | 35 | 143 | 67 | 340 |
+| last180d | 2026-04-09 | 18 | 412 | 48 | 280 | 76 | 410 |
+| 360d | 2025-10-11 | 41 | 645 | 54 | 584 | 117 | 631 |
+| last720d | 2024-10-16 | 52 | 751 | 54 | 609 | 117 | 969 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for OpenSpec lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:35:04Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:19:33Z._
