@@ -43,14 +43,14 @@
   "body": "## What's New in v1.14.1\n\nThis release starts the CLI faster, keeps archived changes off the `openspec view` dashboard, and makes spec writing, verify, and archive more reliable.\n\n### Improved\n\n- **Faster startup** - Each command loads only the code it needs, so `openspec --version` and `--help` load 24 modules instead of 485. The difference is largest on Windows.\n- **Spec writing** - Agents write each capability's spec file as soon as it is drafted instead of planning every file first, so long runs show progress and an interrupted run keeps the files it wrote. `/opsx:continue` writes any specs still missing before moving on.\n- **Strict requirement length** - A requirement over 500 characters is now a warning, so `openspec validate --strict` fails on it, including new requirements in a change.\n\n### Fixed\n\n- **`openspec view`** - The dashboard no longer lists or counts archived changes. `openspec list --archived` still shows them.\n- **Verify with custom schemas** - `/opsx:verify` finds spec and design artifacts by their output path, so it works when a schema names those artifacts differently.\n- **Apply completion** - When every tracked task is checked, apply says the tasks are complete and asks you to review before archiving, instead of calling the change ready to archive.\n- **Archive cleanup errors** - When cleanup after a capability retirement fails, the error says the change was archived, and `--json` reports `archive_retirement_cleanup_failed`.\n\n## New Contributors\n\n* @drakeo338 made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2028\n* @vyhuholl made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2037\n\n**Full Changelog**: https://github.com/Fission-AI/OpenSpec/compare/v1.14.0...v1.14.1\n",
   "reactions": {
     "url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/404198058/reactions",
-    "total_count": 10,
+    "total_count": 14,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 4,
-    "rocket": 6,
+    "heart": 6,
+    "rocket": 8,
     "eyes": 0
   },
   "mentions_count": 2
