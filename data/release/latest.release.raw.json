@@ -43,14 +43,14 @@
   "body": "## What's New in v1.14.2\n\nThis release lets you keep your own metadata on a change, makes Tab completion faster, and closes gaps where archive and verify could lose or miss content.\n\n### New\n\n- **Extension keys in `.openspec.yaml`** - Top-level keys starting with a lowercase `x-` (for example `x-goal: G-12` or `x-jiraKey`) are yours for tracker ids, owners, or other tool data. OpenSpec ignores them, so `openspec validate --strict` passes on a change that carries them. Any other unrecognized key is still reported.\n\n### Improved\n\n- **Faster Tab completion** - Shell completion now loads 48 modules instead of 344 when completing changes or specs, and no longer records usage, so a Tab press never waits on telemetry.\n- **Warnings for text archive drops** - `openspec validate` and `openspec archive` now warn when a delta spec holds text that archive does not carry into the main spec, such as an extra `## ` section or prose before the first requirement. Like other warnings, these fail `openspec validate --strict`.\n- **Verify checks removed requirements properly** - `/opsx:verify` reads a REMOVED requirement's original text from the main spec before searching the code, and reports the entry as not verified when that text cannot be recovered, instead of passing it.\n\n### Fixed\n\n- **Archive with symlinked directories** - `openspec archive` accepts `openspec/`, `openspec/changes`, or `openspec/specs` as a symlink, for example to a shared docs repository.\n- **Explore with custom schemas** - Explore no longer offers to create default-schema files such as `design.md` under a schema that does not define them.\n- **Update with glob artifacts** - The update workflow no longer refuses to create a new file under a partly written glob artifact.\n- **Deeply nested brace patterns** - An artifact `generates` or `apply.tracks` pattern nesting braces more than 16 levels deep is rejected with a clear error instead of risking a crash.\n\n## New Contributors\n\n* @gliptak made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/981\n* @myspec-dev1 made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2035\n* @Khunjua made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2081\n* @PiPlusTheta made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2094\n* @gkinter made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2063\n\n**Full Changelog**: https://github.com/Fission-AI/OpenSpec/compare/v1.14.1...v1.14.2\n",
   "reactions": {
     "url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/413293030/reactions",
-    "total_count": 2,
+    "total_count": 4,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
     "heart": 1,
-    "rocket": 1,
+    "rocket": 3,
     "eyes": 0
   },
   "mentions_count": 5
