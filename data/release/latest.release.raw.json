@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/413293030",
-  "assets_url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/413293030/assets",
-  "upload_url": "https://uploads.github.com/repos/Fission-AI/OpenSpec/releases/413293030/assets{?name,label}",
-  "html_url": "https://github.com/Fission-AI/OpenSpec/releases/tag/v1.14.2",
-  "id": 413293030,
+  "url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/415523176",
+  "assets_url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/415523176/assets",
+  "upload_url": "https://uploads.github.com/repos/Fission-AI/OpenSpec/releases/415523176/assets{?name,label}",
+  "html_url": "https://github.com/Fission-AI/OpenSpec/releases/tag/v1.14.3",
+  "id": 415523176,
   "author": {
     "login": "openspec-release-bot[bot]",
     "id": 254190582,
@@ -25,33 +25,33 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOPYoUTM4Yolnm",
-  "tag_name": "v1.14.2",
-  "target_commitish": "f80d860fc510ba4f51180c8ddde35b91b32de657",
-  "name": "v1.14.2 - Extension metadata, faster completion",
+  "node_id": "RE_kwDOPYoUTM4YxGFo",
+  "tag_name": "v1.14.3",
+  "target_commitish": "c794978f4f8845ce59693373c9dd882ee776588c",
+  "name": "v1.14.3 - Linked specs, safer globs",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-15T00:04:13Z",
-  "updated_at": "2026-10-15T00:18:09Z",
-  "published_at": "2026-10-15T00:15:19Z",
+  "created_at": "2026-10-17T01:43:43Z",
+  "updated_at": "2026-10-17T01:54:57Z",
+  "published_at": "2026-10-17T01:52:12Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/Fission-AI/OpenSpec/tarball/v1.14.2",
-  "zipball_url": "https://api.github.com/repos/Fission-AI/OpenSpec/zipball/v1.14.2",
-  "body": "## What's New in v1.14.2\n\nThis release lets you keep your own metadata on a change, makes Tab completion faster, and closes gaps where archive and verify could lose or miss content.\n\n### New\n\n- **Extension keys in `.openspec.yaml`** - Top-level keys starting with a lowercase `x-` (for example `x-goal: G-12` or `x-jiraKey`) are yours for tracker ids, owners, or other tool data. OpenSpec ignores them, so `openspec validate --strict` passes on a change that carries them. Any other unrecognized key is still reported.\n\n### Improved\n\n- **Faster Tab completion** - Shell completion now loads 48 modules instead of 344 when completing changes or specs, and no longer records usage, so a Tab press never waits on telemetry.\n- **Warnings for text archive drops** - `openspec validate` and `openspec archive` now warn when a delta spec holds text that archive does not carry into the main spec, such as an extra `## ` section or prose before the first requirement. Like other warnings, these fail `openspec validate --strict`.\n- **Verify checks removed requirements properly** - `/opsx:verify` reads a REMOVED requirement's original text from the main spec before searching the code, and reports the entry as not verified when that text cannot be recovered, instead of passing it.\n\n### Fixed\n\n- **Archive with symlinked directories** - `openspec archive` accepts `openspec/`, `openspec/changes`, or `openspec/specs` as a symlink, for example to a shared docs repository.\n- **Explore with custom schemas** - Explore no longer offers to create default-schema files such as `design.md` under a schema that does not define them.\n- **Update with glob artifacts** - The update workflow no longer refuses to create a new file under a partly written glob artifact.\n- **Deeply nested brace patterns** - An artifact `generates` or `apply.tracks` pattern nesting braces more than 16 levels deep is rejected with a clear error instead of risking a crash.\n\n## New Contributors\n\n* @gliptak made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/981\n* @myspec-dev1 made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2035\n* @Khunjua made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2081\n* @PiPlusTheta made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2094\n* @gkinter made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2063\n\n**Full Changelog**: https://github.com/Fission-AI/OpenSpec/compare/v1.14.1...v1.14.2\n",
+  "tarball_url": "https://api.github.com/repos/Fission-AI/OpenSpec/tarball/v1.14.3",
+  "zipball_url": "https://api.github.com/repos/Fission-AI/OpenSpec/zipball/v1.14.3",
+  "body": "## What's New in v1.14.3\n\nThis release accepts spec files linked from elsewhere in your project, removes a dependency that kept failing security audits, and fixes a validate hang in pre-commit hooks.\n\n### Improved\n\n- **No more `braces` audit warning** - Installing OpenSpec no longer pulls in the unpatched `braces` package, so `npm audit` in your project stops reporting GHSA-vfj7-8cjw-p6xm through OpenSpec.\n- **Glob artifacts stay inside the change** - The propose, ff, continue and explore workflows now choose and check a glob artifact's file path before anything writes it, including a skill or command the schema delegates creation to. A path that would leave the change directory, directly or through a symlink, is refused.\n\n### Fixed\n\n- **Linked spec files** - A capability's `spec.md` can be a symlink to a file elsewhere in the project, such as beside the product docs it belongs to. `list --specs`, `show`, `validate` and `archive` accept it; a link that resolves outside the project is still refused.\n- **`validate --all` hanging in hooks** - On a terminal that reports zero columns, as some pre-commit runners provide, the spinner no longer loops forever writing cursor escapes. `OPEN_SPEC_INTERACTIVE=0` and `CI` now turn the spinner off too.\n- **Very wide brace patterns** - A `generates` pattern whose braces expand to more than 1,024 paths is rejected with a clear error instead of running `openspec status` out of memory.\n\n## New Contributors\n\n* @CRYPTONIKAV made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2104\n* @surlymochan made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2103\n\n**Full Changelog**: https://github.com/Fission-AI/OpenSpec/compare/v1.14.2...v1.14.3\n",
   "reactions": {
-    "url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/413293030/reactions",
-    "total_count": 4,
+    "url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/415523176/reactions",
+    "total_count": 1,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
     "hooray": 0,
     "confused": 0,
-    "heart": 1,
-    "rocket": 3,
+    "heart": 0,
+    "rocket": 1,
     "eyes": 0
   },
-  "mentions_count": 5
+  "mentions_count": 2
 }
