@@ -28,19 +28,19 @@
   "node_id": "RE_kwDOPYoUTM4YxGFo",
   "tag_name": "v1.14.3",
   "target_commitish": "c794978f4f8845ce59693373c9dd882ee776588c",
-  "name": "v1.14.3 - Linked specs, safer globs",
+  "name": "v1.14.3 - Clean audits, safer globs",
   "draft": false,
   "immutable": false,
   "prerelease": false,
   "created_at": "2026-10-17T01:43:43Z",
-  "updated_at": "2026-10-17T01:54:57Z",
+  "updated_at": "2026-10-20T17:37:27Z",
   "published_at": "2026-10-17T01:52:12Z",
   "assets": [
 
   ],
   "tarball_url": "https://api.github.com/repos/Fission-AI/OpenSpec/tarball/v1.14.3",
   "zipball_url": "https://api.github.com/repos/Fission-AI/OpenSpec/zipball/v1.14.3",
-  "body": "## What's New in v1.14.3\n\nThis release accepts spec files linked from elsewhere in your project, removes a dependency that kept failing security audits, and fixes a validate hang in pre-commit hooks.\n\n### Improved\n\n- **No more `braces` audit warning** - Installing OpenSpec no longer pulls in the unpatched `braces` package, so `npm audit` in your project stops reporting GHSA-vfj7-8cjw-p6xm through OpenSpec.\n- **Glob artifacts stay inside the change** - The propose, ff, continue and explore workflows now choose and check a glob artifact's file path before anything writes it, including a skill or command the schema delegates creation to. A path that would leave the change directory, directly or through a symlink, is refused.\n\n### Fixed\n\n- **Linked spec files** - A capability's `spec.md` can be a symlink to a file elsewhere in the project, such as beside the product docs it belongs to. `list --specs`, `show`, `validate` and `archive` accept it; a link that resolves outside the project is still refused.\n- **`validate --all` hanging in hooks** - On a terminal that reports zero columns, as some pre-commit runners provide, the spinner no longer loops forever writing cursor escapes. `OPEN_SPEC_INTERACTIVE=0` and `CI` now turn the spinner off too.\n- **Very wide brace patterns** - A `generates` pattern whose braces expand to more than 1,024 paths is rejected with a clear error instead of running `openspec status` out of memory.\n\n## New Contributors\n\n* @CRYPTONIKAV made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2104\n* @surlymochan made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2103\n\n**Full Changelog**: https://github.com/Fission-AI/OpenSpec/compare/v1.14.2...v1.14.3\n",
+  "body": "## What's New in v1.14.3\n\nThis release removes a dependency that kept failing security audits, fixes a validate hang in pre-commit hooks, and stops refusing some symlinked spec files.\n\n### Improved\n\n- **No more `braces` audit warning** - Installing OpenSpec no longer pulls in the unpatched `braces` package, so `npm audit` in your project stops reporting GHSA-vfj7-8cjw-p6xm through OpenSpec.\n- **Glob artifacts stay inside the change** - The propose, ff, continue and explore workflows now choose and check a glob artifact's file path before anything writes it, including a skill or command the schema delegates creation to. A path that would leave the change directory, directly or through a symlink, is refused.\n\n### Fixed\n\n- **Symlinked spec files no longer refused** - `list --specs`, `show`, `validate` and `archive` no longer error out when a capability's `spec.md` is a symlink inside the project. Symlinked layouts are not officially supported. A link that resolves outside the project is still refused.\n- **`validate --all` hanging in hooks** - On a terminal that reports zero columns, as some pre-commit runners provide, the spinner no longer loops forever writing cursor escapes. `OPEN_SPEC_INTERACTIVE=0` and `CI` now turn the spinner off too.\n- **Very wide brace patterns** - A `generates` pattern whose braces expand to more than 1,024 paths is rejected with a clear error instead of running `openspec status` out of memory.\n\n## New Contributors\n\n* @CRYPTONIKAV made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2104\n* @surlymochan made their first contribution in https://github.com/Fission-AI/OpenSpec/pull/2103\n\n**Full Changelog**: https://github.com/Fission-AI/OpenSpec/compare/v1.14.2...v1.14.3\n\n",
   "reactions": {
     "url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/415523176/reactions",
     "total_count": 8,
