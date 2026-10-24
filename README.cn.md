@@ -14,15 +14,15 @@ x install OpenSpec
 
 ## 代码洞察
 
-合计: **118,614** 行代码（覆盖前 5 种语言、共 **496** 个文件）。
+合计: **120,046** 行代码（覆盖前 5 种语言、共 **505** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| TypeScript | 110,807 | 13,698 | 15,874 | 460 |
+| TypeScript | 111,811 | 13,560 | 15,873 | 466 |
 | Yaml | 5,806 | 41 | 1,339 | 6 |
-| JavaScript | 858 | 358 | 104 | 15 |
+| JavaScript | 998 | 394 | 117 | 17 |
 | Tsx | 461 | 27 | 39 | 11 |
-| Svg | 272 | 0 | 0 | 4 |
+| Sh | 286 | 77 | 45 | 5 |
 
 ## 源代码
 
@@ -32,27 +32,42 @@ x install OpenSpec
 
 ## 发布
 
-- **最新版本**: `v1.14.3` (2026-10-17)
-- **最近提交**: 2026-10-23
+- **最新版本**: `v1.15.0` (2026-10-24)
+- **最近提交**: 2026-10-24
+- **Release 含资产**: 9 个
 
 ## 流行度
 
-- **Star**: 72,781 · **Fork**: 4,967 · **开放 issue**: 756 · **贡献者**: 140
+- **Star**: 72,869 · **Fork**: 4,980 · **开放 issue**: 756 · **贡献者**: 140
 
 ## 累计统计
 
-- **发布数**: 54 · **已合并 PR**: 788 · **开放 PR**: 66 · **已关闭 issue**: 626 · **开放 issue**: 130 · **提交数**: 1006
+- **发布数**: 55 · **已合并 PR**: 791 · **开放 PR**: 64 · **已关闭 issue**: 627 · **开放 issue**: 129 · **提交数**: 1009
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 5 | 69 | 22 | 33 | 30 | 93 |
-| last60d | 2026-08-24 | 9 | 174 | 38 | 95 | 55 | 209 |
-| 90d | 2026-07-25 | 13 | 279 | 46 | 138 | 75 | 311 |
-| last180d | 2026-04-26 | 18 | 426 | 58 | 271 | 89 | 439 |
-| 360d | 2025-10-28 | 38 | 647 | 66 | 558 | 129 | 650 |
-| last720d | 2024-11-02 | 54 | 788 | 66 | 626 | 130 | 1006 |
+| 30d | 2026-09-24 | 5 | 71 | 20 | 34 | 27 | 96 |
+| last60d | 2026-08-25 | 10 | 176 | 36 | 96 | 54 | 212 |
+| 90d | 2026-07-26 | 14 | 278 | 43 | 139 | 74 | 314 |
+| last180d | 2026-04-27 | 19 | 429 | 56 | 272 | 88 | 442 |
+| 360d | 2025-10-29 | 39 | 650 | 64 | 556 | 128 | 653 |
+| last720d | 2024-11-03 | 55 | 791 | 64 | 627 | 129 | 1009 |
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [openspec-darwin-arm64](https://github.com/Fission-AI/OpenSpec/releases/download/v1.15.0/openspec-darwin-arm64) | 69.6 MiB | `native/darwin/arm64` |
+| [openspec-darwin-x64](https://github.com/Fission-AI/OpenSpec/releases/download/v1.15.0/openspec-darwin-x64) | 77.1 MiB | `native/darwin/x64` |
+| [openspec-linux-arm64](https://github.com/Fission-AI/OpenSpec/releases/download/v1.15.0/openspec-linux-arm64) | 88.2 MiB | `native/linux/arm64` |
+| [openspec-linux-arm64-musl](https://github.com/Fission-AI/OpenSpec/releases/download/v1.15.0/openspec-linux-arm64-musl) | 80.9 MiB | `native/linux/arm64/musl` |
+| [openspec-linux-x64](https://github.com/Fission-AI/OpenSpec/releases/download/v1.15.0/openspec-linux-x64) | 88.6 MiB | `other` |
+| [openspec-linux-x64-musl](https://github.com/Fission-AI/OpenSpec/releases/download/v1.15.0/openspec-linux-x64-musl) | 82.5 MiB | `other` |
+| [openspec-windows-arm64.exe](https://github.com/Fission-AI/OpenSpec/releases/download/v1.15.0/openspec-windows-arm64.exe) | 81.4 MiB | `native/win/arm64` |
+| [openspec-windows-x64.exe](https://github.com/Fission-AI/OpenSpec/releases/download/v1.15.0/openspec-windows-x64.exe) | 94.0 MiB | `native/win/x64` |
+| [SHA256SUMS](https://github.com/Fission-AI/OpenSpec/releases/download/v1.15.0/SHA256SUMS) | 712 B | `other` |
 
 ## 改进这些数据
 
@@ -63,4 +78,4 @@ OpenSpec 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261023.yml` · 2026-10-23T04:50:33Z._
+_数据快照: `data/card/261024.yml` · 2026-10-24T04:39:41Z._
