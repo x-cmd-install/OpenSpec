@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 31406077,
       "digest": "sha256:51e9298489a86718e32433ddffbb6d4a29ee9da992bf3bcfaa29a664ec7b4cc2",
-      "download_count": 1809,
+      "download_count": 2306,
       "created_at": "2026-10-30T23:47:37Z",
       "updated_at": "2026-10-30T23:47:38Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-darwin-arm64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 33690346,
       "digest": "sha256:4e9e28e58c4f2f2d013d5dae40b555b4f05f5ec3d0011b55958066e978455f2d",
-      "download_count": 95,
+      "download_count": 116,
       "created_at": "2026-10-30T23:47:37Z",
       "updated_at": "2026-10-30T23:47:38Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-darwin-x64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 38668729,
       "digest": "sha256:b3f03729315b3357753c258c344507a72265c80daef6a502928a2b15fa0db3e8",
-      "download_count": 30,
+      "download_count": 34,
       "created_at": "2026-10-30T23:47:37Z",
       "updated_at": "2026-10-30T23:47:38Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-arm64-musl.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 42261815,
       "digest": "sha256:b9b61371a7caa1819da34f766cc24896cfe7a743841f53121b66bd1e2f1b9e93",
-      "download_count": 81,
+      "download_count": 116,
       "created_at": "2026-10-30T23:47:37Z",
       "updated_at": "2026-10-30T23:47:38Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 39059110,
       "digest": "sha256:6fe4c2309736b10995138208ad98607f07898d66426b6cc4d4fae078a78e8161",
-      "download_count": 32,
+      "download_count": 41,
       "created_at": "2026-10-30T23:47:37Z",
       "updated_at": "2026-10-30T23:47:38Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-x64-musl.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 42470584,
       "digest": "sha256:f27fb2ff5c6c4aafb207cb0b797189215adb3a1150d4b4600a2d6a0b6e192ae1",
-      "download_count": 3426,
+      "download_count": 4911,
       "created_at": "2026-10-30T23:47:38Z",
       "updated_at": "2026-10-30T23:47:40Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-x64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 40400505,
       "digest": "sha256:eaf6172875f517902142f55f8aa5f571644a5f09a393709157b52f745164b53c",
-      "download_count": 34,
+      "download_count": 42,
       "created_at": "2026-10-30T23:47:38Z",
       "updated_at": "2026-10-30T23:47:40Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-windows-arm64.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 45093128,
       "digest": "sha256:da1685e290857f10503f02995973078df681ec3a2f859c83b6b4d3b6261b3062",
-      "download_count": 775,
+      "download_count": 1013,
       "created_at": "2026-10-30T23:47:38Z",
       "updated_at": "2026-10-30T23:47:40Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-windows-x64.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 754,
       "digest": "sha256:6cc4af0875c3fb58a0e1ca1dc02873a976c6c9b811585d59f47d3c647ec76bf7",
-      "download_count": 2508,
+      "download_count": 3302,
       "created_at": "2026-10-30T23:47:41Z",
       "updated_at": "2026-10-30T23:47:41Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/SHA256SUMS"
