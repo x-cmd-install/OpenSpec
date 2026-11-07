@@ -14,12 +14,12 @@ x install OpenSpec
 
 ## 代码洞察
 
-合计: **121,150** 行代码（覆盖前 5 种语言、共 **510** 个文件）。
+合计: **121,957** 行代码（覆盖前 5 种语言、共 **512** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| TypeScript | 112,854 | 13,760 | 16,036 | 471 |
-| Yaml | 5,837 | 46 | 1,343 | 6 |
+| TypeScript | 113,651 | 13,820 | 16,127 | 473 |
+| Yaml | 5,847 | 46 | 1,345 | 6 |
 | JavaScript | 996 | 394 | 117 | 17 |
 | Tsx | 468 | 29 | 39 | 11 |
 | Sh | 296 | 78 | 46 | 5 |
@@ -32,42 +32,42 @@ x install OpenSpec
 
 ## 发布
 
-- **最新版本**: `v1.16.0` (2026-10-30)
-- **最近提交**: 2026-11-04
+- **最新版本**: `v1.16.1` (2026-11-07)
+- **最近提交**: 2026-11-07
 - **Release 含资产**: 9 个
 
 ## 流行度
 
-- **Star**: 74,078 · **Fork**: 5,086 · **开放 issue**: 783 · **贡献者**: 144
+- **Star**: 74,188 · **Fork**: 5,092 · **开放 issue**: 786 · **贡献者**: 144
 
 ## 累计统计
 
-- **发布数**: 56 · **已合并 PR**: 812 · **开放 PR**: 63 · **已关闭 issue**: 644 · **开放 issue**: 139 · **提交数**: 1029
+- **发布数**: 57 · **已合并 PR**: 818 · **开放 PR**: 59 · **已关闭 issue**: 647 · **开放 issue**: 139 · **提交数**: 1035
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 4 | 55 | 16 | 19 | 30 | 60 |
-| last60d | 2026-09-07 | 9 | 149 | 31 | 86 | 65 | 201 |
-| 90d | 2026-08-08 | 13 | 242 | 42 | 130 | 85 | 276 |
-| last180d | 2026-05-10 | 20 | 428 | 53 | 258 | 105 | 443 |
-| 360d | 2025-11-11 | 39 | 662 | 63 | 548 | 137 | 665 |
-| last720d | 2024-11-16 | 56 | 812 | 63 | 644 | 139 | 1029 |
+| 30d | 2026-10-08 | 5 | 60 | 12 | 22 | 30 | 66 |
+| last60d | 2026-09-08 | 10 | 155 | 27 | 88 | 65 | 207 |
+| 90d | 2026-08-09 | 14 | 247 | 37 | 133 | 85 | 282 |
+| last180d | 2026-05-11 | 21 | 432 | 49 | 259 | 105 | 449 |
+| 360d | 2025-11-12 | 40 | 668 | 59 | 551 | 137 | 671 |
+| last720d | 2024-11-17 | 57 | 818 | 59 | 647 | 139 | 1035 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [openspec-darwin-arm64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-darwin-arm64.tar.gz) | 30.0 MiB | `native/darwin/arm64` |
-| [openspec-darwin-x64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-darwin-x64.tar.gz) | 32.1 MiB | `native/darwin/x64` |
-| [openspec-linux-arm64-musl.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-arm64-musl.tar.gz) | 36.9 MiB | `native/linux/arm64/musl` |
-| [openspec-linux-arm64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-arm64.tar.gz) | 40.3 MiB | `native/linux/arm64` |
-| [openspec-linux-x64-musl.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-x64-musl.tar.gz) | 37.2 MiB | `native/unknown` |
-| [openspec-linux-x64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-x64.tar.gz) | 40.5 MiB | `native/unknown` |
-| [openspec-windows-arm64.zip](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-windows-arm64.zip) | 38.5 MiB | `native/win/arm64` |
-| [openspec-windows-x64.zip](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-windows-x64.zip) | 43.0 MiB | `native/win/x64` |
-| [SHA256SUMS](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/SHA256SUMS) | 754 B | `other` |
+| [openspec-darwin-arm64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-darwin-arm64.tar.gz) | 30.0 MiB | `native/darwin/arm64` |
+| [openspec-darwin-x64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-darwin-x64.tar.gz) | 32.1 MiB | `native/darwin/x64` |
+| [openspec-linux-arm64-musl.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-linux-arm64-musl.tar.gz) | 36.9 MiB | `native/linux/arm64/musl` |
+| [openspec-linux-arm64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-linux-arm64.tar.gz) | 40.3 MiB | `native/linux/arm64` |
+| [openspec-linux-x64-musl.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-linux-x64-musl.tar.gz) | 37.3 MiB | `native/unknown` |
+| [openspec-linux-x64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-linux-x64.tar.gz) | 40.5 MiB | `native/unknown` |
+| [openspec-windows-arm64.zip](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-windows-arm64.zip) | 38.5 MiB | `native/win/arm64` |
+| [openspec-windows-x64.zip](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-windows-x64.zip) | 43.0 MiB | `native/win/x64` |
+| [SHA256SUMS](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/SHA256SUMS) | 754 B | `other` |
 
 ## 改进这些数据
 
@@ -78,4 +78,4 @@ OpenSpec 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install)
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261106.yml` · 2026-11-06T06:34:49Z._
+_数据快照: `data/card/261107.yml` · 2026-11-07T05:57:15Z._

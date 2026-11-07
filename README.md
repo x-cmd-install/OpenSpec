@@ -14,12 +14,12 @@ x install OpenSpec
 
 ## Code insight
 
-Total: **121,150** lines of code across **510** files in the top 5 languages.
+Total: **121,957** lines of code across **512** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| TypeScript | 112,854 | 13,760 | 16,036 | 471 |
-| Yaml | 5,837 | 46 | 1,343 | 6 |
+| TypeScript | 113,651 | 13,820 | 16,127 | 473 |
+| Yaml | 5,847 | 46 | 1,345 | 6 |
 | JavaScript | 996 | 394 | 117 | 17 |
 | Tsx | 468 | 29 | 39 | 11 |
 | Sh | 296 | 78 | 46 | 5 |
@@ -32,42 +32,42 @@ Total: **121,150** lines of code across **510** files in the top 5 languages.
 
 ## Release
 
-- **Latest**: `v1.16.0` (2026-10-30)
-- **Last commit**: 2026-11-04
+- **Latest**: `v1.16.1` (2026-11-07)
+- **Last commit**: 2026-11-07
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 74,078 · **Forks**: 5,086 · **Open issues**: 783 · **Contributors**: 144
+- **Stars**: 74,188 · **Forks**: 5,092 · **Open issues**: 786 · **Contributors**: 144
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 812 · **Open PRs**: 63 · **Closed issues**: 644 · **Open issues**: 139 · **Commits**: 1029
+- **Releases**: 57 · **Merged PRs**: 818 · **Open PRs**: 59 · **Closed issues**: 647 · **Open issues**: 139 · **Commits**: 1035
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 4 | 55 | 16 | 19 | 30 | 60 |
-| last60d | 2026-09-07 | 9 | 149 | 31 | 86 | 65 | 201 |
-| 90d | 2026-08-08 | 13 | 242 | 42 | 130 | 85 | 276 |
-| last180d | 2026-05-10 | 20 | 428 | 53 | 258 | 105 | 443 |
-| 360d | 2025-11-11 | 39 | 662 | 63 | 548 | 137 | 665 |
-| last720d | 2024-11-16 | 56 | 812 | 63 | 644 | 139 | 1029 |
+| 30d | 2026-10-08 | 5 | 60 | 12 | 22 | 30 | 66 |
+| last60d | 2026-09-08 | 10 | 155 | 27 | 88 | 65 | 207 |
+| 90d | 2026-08-09 | 14 | 247 | 37 | 133 | 85 | 282 |
+| last180d | 2026-05-11 | 21 | 432 | 49 | 259 | 105 | 449 |
+| 360d | 2025-11-12 | 40 | 668 | 59 | 551 | 137 | 671 |
+| last720d | 2024-11-17 | 57 | 818 | 59 | 647 | 139 | 1035 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [openspec-darwin-arm64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-darwin-arm64.tar.gz) | 30.0 MiB | `native/darwin/arm64` |
-| [openspec-darwin-x64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-darwin-x64.tar.gz) | 32.1 MiB | `native/darwin/x64` |
-| [openspec-linux-arm64-musl.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-arm64-musl.tar.gz) | 36.9 MiB | `native/linux/arm64/musl` |
-| [openspec-linux-arm64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-arm64.tar.gz) | 40.3 MiB | `native/linux/arm64` |
-| [openspec-linux-x64-musl.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-x64-musl.tar.gz) | 37.2 MiB | `native/unknown` |
-| [openspec-linux-x64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-linux-x64.tar.gz) | 40.5 MiB | `native/unknown` |
-| [openspec-windows-arm64.zip](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-windows-arm64.zip) | 38.5 MiB | `native/win/arm64` |
-| [openspec-windows-x64.zip](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/openspec-windows-x64.zip) | 43.0 MiB | `native/win/x64` |
-| [SHA256SUMS](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.0/SHA256SUMS) | 754 B | `other` |
+| [openspec-darwin-arm64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-darwin-arm64.tar.gz) | 30.0 MiB | `native/darwin/arm64` |
+| [openspec-darwin-x64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-darwin-x64.tar.gz) | 32.1 MiB | `native/darwin/x64` |
+| [openspec-linux-arm64-musl.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-linux-arm64-musl.tar.gz) | 36.9 MiB | `native/linux/arm64/musl` |
+| [openspec-linux-arm64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-linux-arm64.tar.gz) | 40.3 MiB | `native/linux/arm64` |
+| [openspec-linux-x64-musl.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-linux-x64-musl.tar.gz) | 37.3 MiB | `native/unknown` |
+| [openspec-linux-x64.tar.gz](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-linux-x64.tar.gz) | 40.5 MiB | `native/unknown` |
+| [openspec-windows-arm64.zip](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-windows-arm64.zip) | 38.5 MiB | `native/win/arm64` |
+| [openspec-windows-x64.zip](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/openspec-windows-x64.zip) | 43.0 MiB | `native/win/x64` |
+| [SHA256SUMS](https://github.com/Fission-AI/OpenSpec/releases/download/v1.16.1/SHA256SUMS) | 754 B | `other` |
 
 ## Improve this data
 
@@ -78,4 +78,4 @@ Install metadata for OpenSpec lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:34:48Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T05:57:14Z._
