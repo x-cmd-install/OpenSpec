@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 31453951,
       "digest": "sha256:2185db92e157850b03037126b3da669a2ba596be399d4158054bc162d7f921c8",
-      "download_count": 86,
+      "download_count": 381,
       "created_at": "2026-11-09T23:59:47Z",
       "updated_at": "2026-11-09T23:59:49Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.17.0/openspec-darwin-arm64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 33737278,
       "digest": "sha256:9e4ec3f89b26d28f0eb4dbd11f226355bac0c5a11d78bf82e08e6e68d70dfcce",
-      "download_count": 4,
+      "download_count": 29,
       "created_at": "2026-11-09T23:59:47Z",
       "updated_at": "2026-11-09T23:59:50Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.17.0/openspec-darwin-x64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 38714239,
       "digest": "sha256:ead45a3dbf3dd960764b04020a9d948bfb67829dd2c8a438ab9d587be35bbc52",
-      "download_count": 2,
+      "download_count": 10,
       "created_at": "2026-11-09T23:59:47Z",
       "updated_at": "2026-11-09T23:59:50Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.17.0/openspec-linux-arm64-musl.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 42306964,
       "digest": "sha256:c70fc5f9c982caddbbb0e4c9d51739c40879c7f82c26d3f0096d7b8e525e1d20",
-      "download_count": 4,
+      "download_count": 34,
       "created_at": "2026-11-09T23:59:47Z",
       "updated_at": "2026-11-09T23:59:50Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.17.0/openspec-linux-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 39104411,
       "digest": "sha256:a443259736a25251598f9982e61f181de5bd75c623e381aedc5a41f9aa770c04",
-      "download_count": 3,
+      "download_count": 35,
       "created_at": "2026-11-09T23:59:47Z",
       "updated_at": "2026-11-09T23:59:50Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.17.0/openspec-linux-x64-musl.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 42515305,
       "digest": "sha256:eb3dd48f337afe0af23747bd2b7803c185ff53e69994c56da247ec9512234413",
-      "download_count": 62,
+      "download_count": 377,
       "created_at": "2026-11-09T23:59:50Z",
       "updated_at": "2026-11-09T23:59:53Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.17.0/openspec-linux-x64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 40446413,
       "digest": "sha256:1ac89a910242ca10fdc48cc9b40bfe43c3ece082450d856368412e37f2a72467",
-      "download_count": 3,
+      "download_count": 15,
       "created_at": "2026-11-09T23:59:50Z",
       "updated_at": "2026-11-09T23:59:52Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.17.0/openspec-windows-arm64.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 45138714,
       "digest": "sha256:3e2458720af2c2d9b49372d938c296b75dd3063365c6f4219be2e0577296beeb",
-      "download_count": 126,
+      "download_count": 626,
       "created_at": "2026-11-09T23:59:50Z",
       "updated_at": "2026-11-09T23:59:52Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.17.0/openspec-windows-x64.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 754,
       "digest": "sha256:b2c9f550c9fd9e63afcc0f1bc482f47d9dfa8de9717f036d0da447be59bfec05",
-      "download_count": 252,
+      "download_count": 1285,
       "created_at": "2026-11-09T23:59:54Z",
       "updated_at": "2026-11-09T23:59:54Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v1.17.0/SHA256SUMS"
@@ -366,14 +366,14 @@
   "body": "## What's New in v1.17.0\n\n`openspec update` now upgrades a project from any older release in one run, and announces that command files go away in OpenSpec 2.0.\n\n> **Heads-up: command files (`/opsx:*`) go away in OpenSpec 2.0.** Your OpenSpec skills stay and do the same work. To switch now, run `openspec config set delivery skills && openspec update`. The plan is in [#2022](https://github.com/Fission-AI/OpenSpec/issues/2022).\n\n### New\n\n- **2.0 notice** - While a configured tool still gets command files, `openspec update` ends with a short notice that they go away in 2.0, plus the one command to switch early. It stays silent once you use skills only, and for tools without command files, such as Codex.\n\n### Improved\n\n- **Upgrades from any release** - `openspec update` now upgrades a project made by any release since 0.12 in one run, without stopping to ask for `--force`. It removes old OpenSpec files nobody edited, including leftover copies that made some tools show every skill twice, and keeps any file you changed.\n- **Safer cleanup** - Cleanup never touches files outside your project, even when a folder inside it links somewhere else, and never removes anything when a tool fails to set up.\n\n### Fixed\n\n- **Switching to skills only** - `openspec config set delivery skills` followed by `openspec update` no longer deletes command files you edited. Only files OpenSpec generated are removed; edited ones are kept and listed.\n- **Windows installer** - `irm https://openspec.dev/cli/install.ps1 | iex` no longer fails with `unsupported CPU` on Windows PowerShell 5.1 machines that report no CPU architecture.\n\n**Full Changelog**: https://github.com/Fission-AI/OpenSpec/compare/v1.16.1...v1.17.0\n",
   "reactions": {
     "url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/439776804/reactions",
-    "total_count": 5,
+    "total_count": 6,
     "+1": 1,
     "-1": 0,
     "laugh": 0,
     "hooray": 2,
     "confused": 0,
     "heart": 0,
-    "rocket": 2,
+    "rocket": 3,
     "eyes": 0
   }
 }
