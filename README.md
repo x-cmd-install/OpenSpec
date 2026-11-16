@@ -38,22 +38,22 @@ Total: **128,110** lines of code across **531** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 74,878 · **Forks**: 5,132 · **Open issues**: 802 · **Contributors**: 144
+- **Stars**: 74,943 · **Forks**: 5,139 · **Open issues**: 804 · **Contributors**: 144
 
 ## Totals (cumulative)
 
-- **Releases**: 59 · **Merged PRs**: 830 · **Open PRs**: 58 · **Closed issues**: 654 · **Open issues**: 148 · **Commits**: 1047
+- **Releases**: 59 · **Merged PRs**: 830 · **Open PRs**: 63 · **Closed issues**: 654 · **Open issues**: 150 · **Commits**: 1047
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 6 | 49 | 9 | 17 | 37 | 58 |
-| last60d | 2026-09-16 | 11 | 138 | 20 | 64 | 69 | 204 |
-| 90d | 2026-08-17 | 15 | 230 | 33 | 121 | 87 | 270 |
-| last180d | 2026-05-19 | 23 | 442 | 48 | 257 | 113 | 460 |
-| 360d | 2025-11-20 | 41 | 673 | 58 | 548 | 146 | 675 |
-| last720d | 2024-11-25 | 59 | 830 | 58 | 654 | 148 | 1047 |
+| 30d | 2026-10-17 | 6 | 46 | 14 | 17 | 38 | 43 |
+| last60d | 2026-09-17 | 11 | 135 | 25 | 63 | 67 | 145 |
+| 90d | 2026-08-18 | 15 | 230 | 37 | 120 | 87 | 251 |
+| last180d | 2026-05-20 | 23 | 441 | 53 | 257 | 115 | 457 |
+| 360d | 2025-11-21 | 41 | 671 | 63 | 547 | 147 | 670 |
+| last720d | 2024-11-26 | 59 | 830 | 63 | 654 | 150 | 1047 |
 
 ## Release assets
 
@@ -78,4 +78,4 @@ Install metadata for OpenSpec lives in the [x-cmd/install](https://github.com/x-
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:23:54Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T06:26:44Z._
