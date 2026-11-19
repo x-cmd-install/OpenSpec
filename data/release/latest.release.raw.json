@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 31582738,
       "digest": "sha256:f985131c8b565356a8f4995d53ce819d1b79bdad1242561534eb57754f6bae9b",
-      "download_count": 97,
+      "download_count": 929,
       "created_at": "2026-11-17T01:23:00Z",
       "updated_at": "2026-11-17T01:23:02Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.1.0/openspec-darwin-arm64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 33862229,
       "digest": "sha256:1c2793c9ea5d50cb0ff31d5c6b44eabab5fb6fefc6d8affad4c720030a30cfc6",
-      "download_count": 6,
+      "download_count": 80,
       "created_at": "2026-11-17T01:23:00Z",
       "updated_at": "2026-11-17T01:23:02Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.1.0/openspec-darwin-x64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 38840597,
       "digest": "sha256:df547f151e1dbdc7d89c5c77b0ab3b31f3e050d3e7c538393880697a2dc89cb9",
-      "download_count": 2,
+      "download_count": 23,
       "created_at": "2026-11-17T01:23:00Z",
       "updated_at": "2026-11-17T01:23:02Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.1.0/openspec-linux-arm64-musl.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 42431632,
       "digest": "sha256:2b5ec79c62e76de3d2a15ebb6c5839bbae44b0f8302ccb128109143dd3ecbb1a",
-      "download_count": 6,
+      "download_count": 72,
       "created_at": "2026-11-17T01:23:00Z",
       "updated_at": "2026-11-17T01:23:02Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.1.0/openspec-linux-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 39230587,
       "digest": "sha256:73de6666ec908eae6868ca2ac41b0c1c51e702fcfe14e0b5fc7e6b662c3fda0e",
-      "download_count": 2,
+      "download_count": 34,
       "created_at": "2026-11-17T01:23:00Z",
       "updated_at": "2026-11-17T01:23:02Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.1.0/openspec-linux-x64-musl.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 42640027,
       "digest": "sha256:af110e142e282ff6fa366c6bd15e6e1758f56df5a1cb8f9396cdfa220a0f394f",
-      "download_count": 84,
+      "download_count": 983,
       "created_at": "2026-11-17T01:23:02Z",
       "updated_at": "2026-11-17T01:23:04Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.1.0/openspec-linux-x64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 40573189,
       "digest": "sha256:e53dd1f5f1c1b67d55cec97a79550bdf452b110c16d5a25c1bb498af7d20e3b0",
-      "download_count": 5,
+      "download_count": 32,
       "created_at": "2026-11-17T01:23:02Z",
       "updated_at": "2026-11-17T01:23:04Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.1.0/openspec-windows-arm64.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 45265655,
       "digest": "sha256:446a66b810bf263dffd3a10811224b4c742673bf4eba019ec878009bb7d02b8a",
-      "download_count": 118,
+      "download_count": 1137,
       "created_at": "2026-11-17T01:23:02Z",
       "updated_at": "2026-11-17T01:23:04Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.1.0/openspec-windows-x64.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 754,
       "digest": "sha256:b8eaa014216385a1d7999beef76021d4dc35226338fe9118f8b810daba9cbee4",
-      "download_count": 304,
+      "download_count": 2812,
       "created_at": "2026-11-17T01:23:05Z",
       "updated_at": "2026-11-17T01:23:05Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.1.0/SHA256SUMS"
@@ -366,14 +366,14 @@
   "body": "# OpenSpec 2.1\n\nOpenSpec now supports global skills for coding agents. Install the skills once and your agent can use them in every project on your machine.\n\nAs more teams adopt Vercel’s `skills` installer, it’s becoming a common way to install skills across coding tools. OpenSpec is adopting it too, so we can spend less time maintaining installer code and more time improving the skills themselves.\n\nThe OpenSpec workflows themselves haven't changed.\n\n## What changed\n\n- **Skills can be installed globally.** Vercel’s installer handles the location for each supported agent, whether it reads `~/.agents/skills/` or uses its own folder.\n- **`openspec update` asks where a project's skills should live.** In a repo that has its own OpenSpec skills, you choose once between keeping them in the repo and switching to global. Nothing changes until you choose.\n- **`openspec init --tools <ids>` in a new repo installs globally.** In 2.0 it wrote the skills into the repo. Add `--scope project` to keep them there.\n- **Skills are installed by Vercel’s `skills` package.** Installing or refreshing them needs Git and access to GitHub.\n\n## How to upgrade\n\nUpdate the OpenSpec CLI, then run this in each project:\n\n```bash\nopenspec update\n```\n\nIn a repo that has its own OpenSpec skills, you'll see this choice:\n\n```text\nWhere should OpenSpec keep this project’s skills?\n\n❯ Keep in this project   Keep the skills in this repo.\n  Switch to global       Install the skills globally, for every project on this machine.\n```\n\n**Keep in this project.** Press Enter. The skills stay in your repo. Commit `openspec/config.yaml`, which records your choice so your teammates aren’t asked. Choose this if GitHub’s hosted Copilot agent reads the skills from the repo. You can switch later with `openspec init --scope global`.\n\n**Switch to global.** We recommend this for most teams. The skills are installed globally on your machine, and the copies in the repo are removed. Commit the removed files. Each teammate then pulls, runs `openspec update`, and answers **Yes** when it offers to set up skills on their machine. Upgrade everyone’s CLI before you switch a repo: earlier versions only know project skills.\n\nIn CI or from an agent there is no question: update refreshes the skills where they are.\n\n**If a script sets up your repos,** add `--scope project` to keep new repos' skills in the repo:\n\n```bash\nopenspec init --scope project --tools claude\n```\n\n**Note:** `openspec update` replaces the built-in skill folders. If you edited a built-in skill or added a file inside one, save it first. `openspec update --dry-run` shows what will change.\n\nAn npm install needs Node 22.20.0 or newer. The standalone executable needs nothing. If you already ran `npx skills add`, keep that install and run `openspec update`.\n\nSee the [upgrade guide](https://openspec.dev/docs/upgrade-2-1) for more details.\n\n## Fixes\n\n- The Windows executables are now labeled as OpenSpec, published by FISSION AI INC. Their file properties used to name the build tool, and an antivirus product removed `openspec.exe` as a threat. If the download disappears or won't run, the installer now says antivirus is the likely cause and shows the npm install command.\n\n**Full changelog:** [v2.0.0...v2.1.0](https://github.com/Fission-AI/OpenSpec/compare/v2.0.0...v2.1.0)\n",
   "reactions": {
     "url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/447872505/reactions",
-    "total_count": 4,
-    "+1": 2,
+    "total_count": 8,
+    "+1": 3,
     "-1": 0,
     "laugh": 0,
-    "hooray": 1,
+    "hooray": 2,
     "confused": 0,
     "heart": 0,
-    "rocket": 1,
+    "rocket": 3,
     "eyes": 0
   }
 }
