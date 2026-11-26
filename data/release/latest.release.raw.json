@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 31590389,
       "digest": "sha256:d46a773862f31c317f221e52045767fd132c87cf839b800e6728e975b2a5842a",
-      "download_count": 179,
+      "download_count": 486,
       "created_at": "2026-11-24T20:06:12Z",
       "updated_at": "2026-11-24T20:06:14Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.2.0/openspec-darwin-arm64.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 33867914,
       "digest": "sha256:b35400e0c95b7078287e48e30ebfe76550699ae8291ffe63312d4d352f31fe86",
-      "download_count": 24,
+      "download_count": 40,
       "created_at": "2026-11-24T20:06:12Z",
       "updated_at": "2026-11-24T20:06:15Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.2.0/openspec-darwin-x64.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 38846339,
       "digest": "sha256:fb77d1374919091aa1b9078583da02a3b51b222f0b3009004b2bfcc323bddcd1",
-      "download_count": 9,
+      "download_count": 15,
       "created_at": "2026-11-24T20:06:12Z",
       "updated_at": "2026-11-24T20:06:15Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.2.0/openspec-linux-arm64-musl.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 42436695,
       "digest": "sha256:a3d3f4398579358816a4e6e6306a4dac998f81fa5b3292edaa1a478d4acdd0d7",
-      "download_count": 24,
+      "download_count": 59,
       "created_at": "2026-11-24T20:06:12Z",
       "updated_at": "2026-11-24T20:06:15Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.2.0/openspec-linux-arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 39235670,
       "digest": "sha256:2ac3eeca087e4b8c2fed633633ea946cd018a9aefc71e0351e304e5a370b20b2",
-      "download_count": 13,
+      "download_count": 24,
       "created_at": "2026-11-24T20:06:12Z",
       "updated_at": "2026-11-24T20:06:15Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.2.0/openspec-linux-x64-musl.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 42645063,
       "digest": "sha256:f91f0bc22ecd51279178bf91aaf6149ceba5b95dae9cc46f80f91fb14633e594",
-      "download_count": 218,
+      "download_count": 580,
       "created_at": "2026-11-24T20:06:15Z",
       "updated_at": "2026-11-24T20:06:19Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.2.0/openspec-linux-x64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 40578720,
       "digest": "sha256:7deacc9549644476f776e08eacff63096d4d97ae6b813dd161fca439caa15c8b",
-      "download_count": 10,
+      "download_count": 15,
       "created_at": "2026-11-24T20:06:15Z",
       "updated_at": "2026-11-24T20:06:20Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.2.0/openspec-windows-arm64.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 45271143,
       "digest": "sha256:27bdeaa7dde5842a34bc66734665b455abd93250d26f3e225b7a45a77442ac32",
-      "download_count": 219,
+      "download_count": 666,
       "created_at": "2026-11-24T20:06:16Z",
       "updated_at": "2026-11-24T20:06:19Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.2.0/openspec-windows-x64.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 754,
       "digest": "sha256:35968096b649af7bb6a694e5be95b20a74ab57f0717e5c161273f32f5a3e95bf",
-      "download_count": 610,
+      "download_count": 1670,
       "created_at": "2026-11-24T20:06:21Z",
       "updated_at": "2026-11-24T20:06:37Z",
       "browser_download_url": "https://github.com/Fission-AI/OpenSpec/releases/download/v2.2.0/SHA256SUMS"
@@ -363,5 +363,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/Fission-AI/OpenSpec/tarball/v2.2.0",
   "zipball_url": "https://api.github.com/repos/Fission-AI/OpenSpec/zipball/v2.2.0",
-  "body": "## What's New in v2.2.0\n\n**OpenSpec now has a skill router.** Type `/openspec`, say what you want, and the router picks the right OpenSpec skill and runs it.\n\n## How to upgrade\n\nRun `openspec update`. The update adds the `openspec` router skill and changes no other skill.\n\n### New: the `/openspec` skill router\n\n- **One command for everything** - `/openspec` accepts any OpenSpec request in plain words. In Codex the command is `$openspec`.\n- **The router picks the skill** - You no longer need to know which of the 12 workflow skills to call.\n- **The router answers questions** - Ask \"where does add-auth stand?\" and the router checks your project, then tells you the status and the next step.\n- **The router runs several steps in order** - Ask \"verify add-auth, then archive it\" and the router runs both skills, pausing wherever a step needs your approval.\n- **Every existing skill still works** - `/openspec-propose` and the other 11 skills keep their names, their tab completion and their behavior.\n- **Every profile gets the router** - Core and custom profiles both install the router, and `openspec config profile` does not list it because the router is not a workflow you choose.\n\n### New: reference files for skills\n\n- **A skill can now ship a `references/` folder** - The folder sits next to `SKILL.md` and holds detail the agent opens only when a task needs it.\n- **The router is the first skill with references** - `openspec init` and `openspec update` install, refresh and remove reference files together with their skill.\n\n### Improved\n\n- **`openspec update` repairs reference files** - A reference file that was deleted or edited is restored on the next `openspec update`.\n\n### Fixed\n\n- **Windows install no longer fails on a locked file** - The install script now retries for up to five seconds when Windows still has the new `openspec.exe` locked.\n\n**Full Changelog**: https://github.com/Fission-AI/OpenSpec/compare/v2.1.1...v2.2.0\n"
+  "body": "## What's New in v2.2.0\n\n**OpenSpec now has a skill router.** Type `/openspec`, say what you want, and the router picks the right OpenSpec skill and runs it.\n\n## How to upgrade\n\nRun `openspec update`. The update adds the `openspec` router skill and changes no other skill.\n\n### New: the `/openspec` skill router\n\n- **One command for everything** - `/openspec` accepts any OpenSpec request in plain words. In Codex the command is `$openspec`.\n- **The router picks the skill** - You no longer need to know which of the 12 workflow skills to call.\n- **The router answers questions** - Ask \"where does add-auth stand?\" and the router checks your project, then tells you the status and the next step.\n- **The router runs several steps in order** - Ask \"verify add-auth, then archive it\" and the router runs both skills, pausing wherever a step needs your approval.\n- **Every existing skill still works** - `/openspec-propose` and the other 11 skills keep their names, their tab completion and their behavior.\n- **Every profile gets the router** - Core and custom profiles both install the router, and `openspec config profile` does not list it because the router is not a workflow you choose.\n\n### New: reference files for skills\n\n- **A skill can now ship a `references/` folder** - The folder sits next to `SKILL.md` and holds detail the agent opens only when a task needs it.\n- **The router is the first skill with references** - `openspec init` and `openspec update` install, refresh and remove reference files together with their skill.\n\n### Improved\n\n- **`openspec update` repairs reference files** - A reference file that was deleted or edited is restored on the next `openspec update`.\n\n### Fixed\n\n- **Windows install no longer fails on a locked file** - The install script now retries for up to five seconds when Windows still has the new `openspec.exe` locked.\n\n**Full Changelog**: https://github.com/Fission-AI/OpenSpec/compare/v2.1.1...v2.2.0\n",
+  "reactions": {
+    "url": "https://api.github.com/repos/Fission-AI/OpenSpec/releases/457262127/reactions",
+    "total_count": 1,
+    "+1": 1,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
