@@ -1,0 +1,155 @@
+about:
+  description: "Spec-driven development (SDD) for AI coding assistants."
+  license: MIT
+  homepage: https://openspec.dev/
+  head: f1cd852
+  archived: false
+  latestVersion: "v2.2.0"
+  latestRelease: "v2.2.0"
+  latestPrerelease: "v1.6.0-beta.1"
+  collectedAt: 2026-11-28T07:59:18Z
+timeline:
+  created: 2025-08-05
+  lastCommit: 2026-11-24
+  lastVersion: 2026-11-24
+  lastRelease: 2026-11-24
+  lastPrerelease: 2026-07-08
+popularity:
+  star: 75916
+  watcher: 282
+  fork: 5207
+  release: 62
+  contributor: 145
+  pullRequest: 1233
+  issue: 821
+language:
+  TypeScript: 5835157
+  JavaScript: 68250
+  Shell: 17597
+  PowerShell: 10118
+  Nix: 3940
+  CSS: 255
+totalBytes: 5935317
+recent:
+  last30d:
+    since: 2026-10-29
+    release: 7
+    mergedPR: 46
+    openPR: 13
+    closedIssue: 22
+    openIssue: 31
+    commit: 59
+  last60d:
+    since: 2026-09-29
+    release: 12
+    mergedPR: 113
+    openPR: 18
+    closedIssue: 51
+    openIssue: 56
+    commit: 117
+  last90d:
+    since: 2026-08-30
+    release: 16
+    mergedPR: 224
+    openPR: 38
+    closedIssue: 121
+    openIssue: 82
+    commit: 260
+  last180d:
+    since: 2026-06-01
+    release: 26
+    mergedPR: 444
+    openPR: 53
+    closedIssue: 254
+    openIssue: 116
+    commit: 470
+  last360d:
+    since: 2025-12-03
+    release: 43
+    mergedPR: 687
+    openPR: 65
+    closedIssue: 547
+    openIssue: 149
+    commit: 690
+  last720d:
+    since: 2024-12-08
+    release: 62
+    mergedPR: 848
+    openPR: 65
+    closedIssue: 665
+    openIssue: 153
+    commit: 1068
+total:
+  release: 62
+  mergedPR: 852
+  openPR: 65
+  closedIssue: 668
+  openIssue: 153
+  commit: 1068
+---
+path: /home/runner/.x-repo/github.com/Fission-AI/OpenSpec
+collectedAt: 2026-11-28T07:59:21Z
+loc:
+  TypeScript:
+    code: 121733
+    comments: 14309
+    blanks: 16578
+    files: 500
+  Yaml:
+    code: 5992
+    comments: 46
+    blanks: 1389
+    files: 6
+  JavaScript:
+    code: 1200
+    comments: 429
+    blanks: 136
+    files: 19
+  Tsx:
+    code: 468
+    comments: 29
+    blanks: 39
+    files: 11
+  Sh:
+    code: 299
+    comments: 78
+    blanks: 46
+    files: 5
+  Svg:
+    code: 267
+    comments: 0
+    blanks: 0
+    files: 3
+  Json:
+    code: 181
+    comments: 0
+    blanks: 0
+    files: 4
+  PowerShell:
+    code: 129
+    comments: 45
+    blanks: 9
+    files: 1
+  Nix:
+    code: 122
+    comments: 3
+    blanks: 17
+    files: 1
+  Css:
+    code: 10
+    comments: 0
+    blanks: 2
+    files: 1
+  Markdown:
+    code: 0
+    comments: 62218
+    blanks: 22661
+    files: 758
+total:
+  code: 133686
+  comments: 78034
+  blanks: 41354
+  files: 1309
+---
+
+---
